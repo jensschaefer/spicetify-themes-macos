@@ -12,9 +12,7 @@
 .main-topBar-overlay, .main-view-container, .Root__nav-bar{
   background-color: var(--spice-main);
 }
-.Root__nav-bar {
-  margin-top: 1rem;
-}
+
 .main-topBar-background {
   opacity: 1 !important;
 }
@@ -28,6 +26,9 @@
 /* navbar */
 .main-rootlist-rootlistDividerContainer {
   display: none;
+}
+.main-navBar-navBar {
+  margin-top: 1rem;
 }
 .main-navBar-navBarLinkActive,
 .main-collectionLinkButton-selected,
@@ -89,7 +90,7 @@
 }
 /* for older versions */
 .main-nowPlayingBar-nowPlayingBar:not(:only-child) .playback-progressbar:not(.volume-bar > .playback-progressbar),
-/* for new version */
+  /* for new version */
 .main-nowPlayingBar-nowPlayingBar:not(:only-child) .playback-progressbar:not(.volume-bar__slider-container > .playback-progressbar) {
   bottom: 108px;
 }
